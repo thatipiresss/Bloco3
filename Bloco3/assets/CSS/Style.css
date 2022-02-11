@@ -1,0 +1,72 @@
+/* configuração para as página inteira */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #080808;
+  }
+  
+  header {
+    background-image: linear-gradient(rgb(78, 18, 189), rgb(241, 241, 248));
+    margin: 0;
+    padding: 1em 0 4em 0;
+  }
+  
+  h1{
+    margin: 0;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .justify {
+    text-align: justify;
+  }
+  
+  .container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #menu li {
+    display: inline;
+    padding: 15px;
+  }
+  
+  #menu li a {
+    text-decoration: none;
+    color: #0a0a0a;
+  }
+  
+  #menu li a:hover {
+    color: #0c0c0c;
+  }
+  
+  .p-30 {
+    padding: 30px;
+  }
+  
+  .br-50 {
+    border-radius: 50%;
+  }
+  
+  .tamanho {
+    width: 400px;
+    height: 400px;
+  }
+  
+  .tm-social {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .mb-50 {
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  .ml-50 {
+    margin-left: 50px;
+  }
